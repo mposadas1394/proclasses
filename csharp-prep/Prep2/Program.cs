@@ -8,25 +8,25 @@ class Program
         string response=Console.ReadLine();
         int grade=int.Parse(response);
         if (grade>=90){
-            Console.WriteLine("You got an A")
+            Console.WriteLine("You got an A");
         }
         else if(grade>=80){
-            Console.WriteLine("You got an B")
+            Console.WriteLine("You got an B");
         }
         else if(grade>=70){
-            Console.WriteLine("You got an C")
+            Console.WriteLine("You got an C");
         }
         else if(grade>=60){
-            Console.WriteLine("You got an D")
+            Console.WriteLine("You got an D"):
         }
         else {
-            Console.WriteLine("You got an F")
+            Console.WriteLine("You got an F");
         }
         if(grade>=70){
-            Console.WriteLine("Congratulations! You passed the course")
+            Console.WriteLine("Congratulations! You passed the course");
         }
         else{
-            Console.WriteLine("Sorry, You didn´t pass. Try it again")
+            Console.WriteLine("Sorry, You didn´t pass. Try it again");
         }
     }
 }
