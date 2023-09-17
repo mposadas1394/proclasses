@@ -14,10 +14,10 @@ class Program
             Console.WriteLine("You got an B");
         }
         else if(grade>=70){
-            Console.WriteLine("You got an C");
+            Console.WriteLine("You got a C");
         }
         else if(grade>=60){
-            Console.WriteLine("You got an D"):
+            Console.WriteLine("You got a D");
         }
         else {
             Console.WriteLine("You got an F");
