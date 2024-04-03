@@ -1,0 +1,4 @@
+0
+SimpleGoal:give a talk,give a talk,100
+EternalGoal:read scriptures,read scriptures,20
+CheckListGoal:attend the temple,attend the temple,50,0,3,300
