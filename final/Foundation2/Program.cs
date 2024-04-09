@@ -26,11 +26,15 @@ class Program
         {
             Console.WriteLine("want to add a product to the order?");
             answer=Console.ReadLine();
+            if (answer=="no")
+            {
+                break;
+            }
             Console.WriteLine("Complete the following information:");
-            Console.WriteLine("Name: ");
+            Console.WriteLine("Product: ");
             string product=Console.ReadLine();
             Console.WriteLine("Id: ");
-            int id=int.Parse(Console.ReadLine());
+            string id=Console.ReadLine();
             Console.WriteLine("Price");
             double price=Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Quantity: ");

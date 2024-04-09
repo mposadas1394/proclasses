@@ -9,7 +9,7 @@ public class Order
  {
     _customer=customer;
  }
- private double Total()
+ private void Total()
  {
     double sum=0;
     foreach (Product product in _products)
@@ -21,13 +21,13 @@ public class Order
     if (shipping==true)
     {
         sum+=5;
-        return sum;
+       
     }
     else
     {
         sum+=35;
-        return sum;
     }
+    Console.WriteLine($"The total cost of your order is: {sum}");
  }
 
  private void DisplayLabel()
@@ -50,6 +50,7 @@ public class Order
  public void Labels()
  {
     ShippingLabel();
-    ShippingLabel();
+    DisplayLabel();
+    Total();
  }
 }
